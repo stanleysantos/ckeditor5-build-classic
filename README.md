@@ -1,4 +1,4 @@
-CKEditor 5 classic editor build
+CKEditor 5 custom build based on classic editor build
 ========================================
 
 [![Join the chat at https://gitter.im/ckeditor/ckeditor5](https://badges.gitter.im/ckeditor/ckeditor5.svg)](https://gitter.im/ckeditor/ckeditor5?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
@@ -24,7 +24,7 @@ See:
 First, install the build from npm:
 
 ```bash
-npm install --save @ckeditor/ckeditor5-build-classic
+npm install --save @stanleysantos/ckeditor5-build-sigea
 ```
 
 And use it in your website:
@@ -33,7 +33,7 @@ And use it in your website:
 <div id="editor">
 	<p>This is the editor content.</p>
 </div>
-<script src="./node_modules/@ckeditor/ckeditor5-build-classic/build/ckeditor.js"></script>
+<script src="./node_modules/@stanleysantos/ckeditor5-build-sigea/build/ckeditor.js"></script>
 <script>
 	ClassicEditor
 		.create( document.querySelector( '#editor' ) )
@@ -49,7 +49,7 @@ And use it in your website:
 Or in your JavaScript application:
 
 ```js
-import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
+import ClassicEditor from '@stanleysantos/ckeditor5-build-sigea';
 
 // Or using the CommonJS version:
 // const ClassicEditor = require( '@ckeditor/ckeditor5-build-classic' );
